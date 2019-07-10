@@ -1,0 +1,62 @@
+body{
+    background-color: azure;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  
+  
+  .container{
+    position: relative;
+    display: block;
+    outline: 2px solid #000;
+    height:10cm;
+    width: 10cm;
+    border: none;
+    padding: 0;
+    margin: auto;
+    
+  }
+  
+  .numbers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr;
+    grid-template-areas: "." ".";
+    outline: 1px solid #000;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+  
+  
+  }
+  
+   .digits {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      outline: 1px solid #000;
+  
+      
+   }
+  
+  .buttons{
+    position: relative;
+    text-align: center;
+    border: 0.1px solid #000;
+    height: 60px;
+    margin: 0px;
+    vertical-align: middle;
+    background-color: #5d737e;
+    color: #f0f7ee;
+    
+    
+  }
+ 
+  #screen {
+    text-align: right;
+    margin-right: 5px;
+    height: 50px;
+  }
+  
